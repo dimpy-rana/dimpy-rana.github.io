@@ -25,12 +25,13 @@
 
 <body>
 
-    <div class="container landingInfo">
-        <h1 id="welcome-type"></h1>
+    <div class="container landingInfo ">
+        <h1 class="animate__animated  animate__lightSpeedInRight wow" id="welcome-type" data-wow-duration="1.5s"></h1>
     </div>
     <div class="container p-5">
         <div class="row">
-            <div class="col-lg-6 align-self-center container profileCard">
+            <div class="col-lg-6 align-self-center container profileCard animate__animated animate__flipInY wow"
+                data-wow-duration="3s">
                 <img class="img-fluid mx-auto d-block" src="/assets/pics/profile.jpg" alt="">
             </div>
             <div class="col-lg-6 align-self-center">
@@ -38,7 +39,8 @@
                     <div class="card-header text-center">
                         <h1>About</h1>
                     </div>
-                    <div class="card-body" style="font-size: 20px;">
+                    <div class="card-body animate__animated animate__zoomIn wow" data-wow-duration="1.5s"
+                        data-wow-delay="1s" style="font-size: 20px;">
                         <!-- <h5 class="card-title">Primary card title</h5> -->
                         <p id="about-type">
                             I'm a forensic science student specializing in chemistry and toxicology. With a strong
@@ -62,10 +64,10 @@
 
     </div>
 
-    <div class="container">
+    <div class="container animate__animated animate__slideInUp wow" data-wow-duration="2s" data-wow-delay="1s">
 
         <div class="card detailsCard p-3 glow-box">
-            <div class="card-header text-center">
+            <div class="card-header text-center ">
                 <h1>Master's Research Project</h1>
             </div>
             <div class="card-body">
@@ -125,7 +127,8 @@ Add
             </div>
         </div>
     </div> -->
-    <div class="container p-5 d-flex justify-content-center">
+    <div class="container p-5 d-flex justify-content-center animate__animated animate__rollIn wow"
+        data-wow-duration="2s" data-wow-delay="0.5s">
         <div class="card align-self-center  detailsCard glow-box">
             <div class="card-header text-center">
                 <h1>Connect With Me</h1>
@@ -196,5 +199,12 @@ Add
     });
 </script>
 <script src="https://kit.fontawesome.com/0219d0e298.js" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+    integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+    crossorigin="anonymous"></script>
+<script>
+    new WOW().init();
+</script>
 
 </html>
