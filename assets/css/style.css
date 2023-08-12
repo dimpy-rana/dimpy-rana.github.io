@@ -24,6 +24,13 @@ body {
 
 #intro-type {
     font-family: 'Dancing Script', cursive;
+    margin: 0;
+}
+
+#intro-type p {
+    color: rgb(0, 255, 170);
+    display: inline;
+    font-family: inherit !important;
 }
 
 .box-glow {
@@ -196,4 +203,56 @@ resume-button:hover {
     box-shadow: 0 0 20px #f441a5;
 
     /* Adjust glow effect */
+}
+
+
+#connect ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+#connect ul li {
+    margin: 0 10px;
+}
+
+#connect ul li i {
+    font-size: 30px;
+}
+
+#connect li a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+
+#connect li a i {
+    font-size: 35px;
+}
+
+#connect li a:hover {
+color: purple;
+}
+
+.footer {
+    /* Set the background color of the footer */
+    padding: 20px 0;
+    /* Add padding to the top and bottom */
+}
+
+.footer p {
+    margin: 0;
+    /* Remove default margin */
+}
+
+.footer i {
+    color: #333;
+    /* Set the color of the GitHub icon */
+    font-size: 18px;
+    /* Adjust the icon size */
+    vertical-align: middle;
+    /* Vertically align the icon with the text */
+    margin-left: 5px;
+    /* Add space between the text and the icon */
 }
