@@ -59,12 +59,6 @@ body {
     color: rgb(109, 4, 214);
 }
 
-#sticker {
-    width: 50%;
-    height: auto;
-}
-
-
 .profileCard {
     position: relative;
     width: 80%;
@@ -232,7 +226,7 @@ resume-button:hover {
 }
 
 #connect li a:hover {
-color: purple;
+    color: purple;
 }
 
 .footer {
@@ -255,4 +249,18 @@ color: purple;
     /* Vertically align the icon with the text */
     margin-left: 5px;
     /* Add space between the text and the icon */
+}
+
+
+
+
+.glow-box2 {
+    background-color: #3498db;
+    transition: box-shadow 0.5s ease-in-out;
+}
+
+.glow-box2:hover {
+    box-shadow: 0 0 15px #d2abff;
+
+    /* Adjust glow effect */
 }
