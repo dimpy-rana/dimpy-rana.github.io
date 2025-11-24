@@ -1,351 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="theme-color" content="#f53f2b">
-    <meta name="description" content="Dimpy Rana Portfolio">
-    <meta name="author" content="Dimpy Rana">
-    <link rel="shortcut icon" href="/assets/pics/profile.jpg" type="image/x-icon">
-    <meta property="og:image" itemprop="page previewImage" content="assets/pics/profile.jpg/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimpy Rana | Forensic Toxicologist</title>
+    <meta name="description"
+        content="Portfolio of Dimpy Rana, Forensic Scientific Assistant specializing in Toxicology, Chemical Analysis, and Forensic Chemistry.">
+    
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Ubuntu:ital,wght@0,300;1,300&display=swap"
-        rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dimpy Rana | Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
-
 <body>
 
-    <div class="container landingInfo ">
-        <h1 class="animate__animated  animate__lightSpeedInRight wow" id="welcome-type" data-wow-duration="2s"></h1>
-    </div>
-    <div class="container p-5">
-        <div class="row">
-            <div class="col-lg-6 align-self-center container profileCard animate__animated animate__flipInY wow"
-                data-wow-duration="4s">
-                <img class="img-fluid mx-auto d-block" src="/assets/pics/profile.jpg" alt="">
+    <!-- Global Background -->
+    <div class="hero-bg" id="particles-js"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-flask"></i> DIMPY<span class="highlight">RANA</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+
+        <div class="hero-content">
+            <h1 class="hero-title">DIMPY RANA</h1>
+            <h2 class="hero-subtitle">FORENSIC SCIENTIFIC ASSISTANT</h2>
+            <p class="hero-tagline">Specializing in <span class="highlight-text">Toxicology</span>, <span
+                    class="highlight-text">Chemical Analysis</span> & <span class="highlight-text">Forensic Chemistry</span></p>
+            <div class="hero-buttons" style="display: flex; gap: 20px; justify-content: center;">
+                <a href="#projects" class="btn-lab">View Lab Reports</a>
             </div>
-            <div class="col-lg-6 align-self-center">
-                <div class="card mb-3 detailsCard glow-box ">
-                    <div class="card-header text-center">
-                        <h1>About</h1>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title" data-text="PROFILE">SCIENTIFIC PROFILE</h2>
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="hex-frame">
+                        <img src="assets/pics/profile.jpg" alt="Dimpy Rana Profile"
+                            onerror="this.src='https://via.placeholder.com/400x400/000000/39ff14?text=Scientist+Profile'">
                     </div>
-                    <div class="card-body animate__animated animate__rollIn wow" data-wow-duration="1.5s"
-                        data-wow-delay="1s" style="font-size: 20px;">
-                        <!-- <h5 class="card-title">Primary card title</h5> -->
-                        <p id="about-type">
-                            I'm a forensic science student specializing in chemistry and toxicology. With a strong
-                            foundation in chemical properties
-                            and analytical methods, I'm passionate about applying scientific knowledge to solve
-                            real-world problems. I have hands-on
-                            laboratory experience and am particularly interested in drug analysis and trace evidence
-                            analysis. I'm eager to
-                            contribute to the advancement of forensic science and make a meaningful impact on society.
+                </div>
+                <div class="about-text">
+                    <h3>Forensic Scientific Assistant</h3>
+                    <p>Dedicated professional at <span class="highlight-text">RFSL Amravati</span>. My core expertise lies in <span
+                            class="highlight-text">Forensic Toxicology</span> and <span class="highlight-text">Chemical Analysis</span>.
+                        I apply rigorous scientific methods to analyze biological samples, identify toxic substances, and provide
+                        critical evidence for criminal investigations.</p>
+                
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="3">0</span>
+                            <span class="stat-label">UGC NET Qualified</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="2">0</span>
+                            <span class="stat-label">Silver Medalist</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="9.8">0</span>
+                            <span class="stat-label">M.Sc CGPA</span>
+                        </div>
+                        </div>
+
+                    <div class="education-mini" style="margin-top: 30px; border-top: 1px solid var(--border-color); padding-top: 20px;">
+                        <h4 style="color: #fff; margin-bottom: 10px;">Education</h4>
+                        <ul style="list-style: none; color: #aaa;">
+                            <li style="margin-bottom: 10px;"><i class="fa-solid fa-graduation-cap"
+                                    style="color: var(--accent-primary); margin-right: 10px;"></i> <strong>M.Sc Forensic Science</strong> -
+                                Institute of Forensic Science, Mumbai (9.83 CGPA)</li>
+                            <li><i class="fa-solid fa-graduation-cap" style="color: var(--accent-primary); margin-right: 10px;"></i>
+                                <strong>B.Sc (Hons)</strong> - Galgotias University (8.44 CGPA)</li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+                </div>
+    </section>
+
+    <!-- Projects / Experience -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title" data-text="EXPERIENCE">CASE FILES</h2>
+            <div class="projects-grid">
+                <!-- Experience 1 -->
+                <div class="project-card">
+                    <div class="card-content">
+                        <div class="card-icon"><i class="fa-solid fa-vial-circle-check"></i></div>
+                        <h3>RFSL Amravati</h3>
+                        <p class="role-date">Forensic Scientific Assistant (Toxicology) | 07/2025 - Present</p>
+                        <p>Execution of forensic toxicology protocols for visceral analysis. Proficient in extraction and
+                            isolation of poisons from biological matrices using solvent extraction and TLC techniques.
+                            Ensuring strict Chain of Custody.</p>
+                        <div class="tags">
+                            <span>Toxicology</span>
+                            <span>Visceral Analysis</span>
+                            <span>TLC/Extraction</span>
+                        </div>
+                    </div>
+                    </div>
+<!-- Experience 2 -->
+<div class="project-card">
+    <div class="card-content">
+        <div class="card-icon"><i class="fa-solid fa-microscope"></i></div>
+        <h3>RFSL Pune</h3>
+        <p class="role-date">Scientific Assistant Intern (Biology) | 11/2023 - 10/2024</p>
+        <p>Conducted serological examinations including blood grouping and species origin determination. Performed
+            presumptive tests for biological fluids (Kastle-Meyer, Acid Phosphatase) on evidentiary material.</p>
+        <div class="tags">
+            <span>Serology</span>
+            <span>Blood Grouping</span>
+            <span>Kastle-Meyer</span>
+        </div>
+    </div>
+</div>
+
+                <!-- Experience 3 -->
+                <div class="project-card">
+                    <div class="card-content">
+                        <div class="card-icon"><i class="fa-solid fa-laptop-medical"></i></div>
+                        <h3>Forensic Academy</h3>
+                        <p class="role-date">Digital Forensics Intern | 05/2025 - 07/2025</p>
+                        <p>Acquisition and analysis of digital evidence. Utilized forensic imaging tools for data recovery and integrity
+                            verification, maintaining scientific rigor in digital investigations.</p>
+                        <div class="tags">
+                            <span>Digital Evidence</span>
+                            <span>Data Recovery</span>
+                            <span>Forensic Imaging</span>
+                        </div>
+                    </div>
+                </div>
+<!-- Experience 4 -->
+<div class="project-card">
+    <div class="card-content">
+        <div class="card-icon"><i class="fa-solid fa-truck-medical"></i></div>
+        <h3>GSD Mumbai</h3>
+        <p class="role-date">Trainee - Chemical Analysis | 1 Month</p>
+        <p>Facilitated the integration of analytical instrumentation for Mobile Forensic Units. Assisted in the
+            calibration and maintenance of field testing kits for rapid crime scene analysis.</p>
+        <div class="tags">
+            <span>Mobile Forensics</span>
+            <span>Instrumentation</span>
+            <span>Field Kits</span>
+        </div>
+                    </div>
+                    </div>
+                    </div>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title" data-text="SKILLS">ANALYTICAL SKILLS</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fa-solid fa-prescription-bottle-medical"></i> Toxicology & Chemistry</h3>
+                    <ul class="skill-list">
+                        <li>
+                            <div class="skill-bar" style="--width: 95%"><span>Toxicology Screening</span></div>
+                        </li>
+                        <li>
+                            <div class="skill-bar" style="--width: 90%"><span>Chromatography (HPLC/GC)</span></div>
+                        </li>
+                        <li>
+                            <div class="skill-bar" style="--width: 85%"><span>Serological Analysis</span></div>
+                        </li>
+                        <li>
+                            <div class="skill-bar" style="--width: 88%"><span>Microscopy</span></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fa-solid fa-clipboard-check"></i> Forensic Procedures</h3>
+                    <ul class="skill-list">
+                        <li>
+                            <div class="skill-bar" style="--width: 92%"><span>Crime Scene Management</span></div>
+                        </li>
+                        <li>
+                            <div class="skill-bar" style="--width: 90%"><span>Evidence Preservation</span></div>
+                        </li>
+                        <li>
+                            <div class="skill-bar" style="--width: 85%"><span>Digital Evidence Analysis</span></div>
+                        </li>
+                        <li>
+                            <div class="skill-bar" style="--width: 80%"><span>Legal Reporting</span></div>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+        </div>
+    </section>
+    
+    <!-- Achievements -->
+    <section id="achievements" class="section">
+        <div class="container">
+            <h2 class="section-title" data-text="AWARDS">ACADEMIC HONORS</h2>
+            <div class="achievements-list">
+                <div class="achievement-item">
+                    <div class="ach-date">2024 - 2025</div>
+                    <div class="ach-content">
+                        <h4>UGC NET Qualified</h4>
+                        <p>Qualified National Eligibility Test (UGC-NET) for Assistant Professor (June 2024, Dec 2024, June
+                            2025).</p>
+                    </div>
+                </div>
+                <div class="achievement-item">
+                    <div class="ach-date">M.Sc</div>
+                    <div class="ach-content">
+                        <h4>Silver Medalist</h4>
+                        <p>Awarded Silver Medal for securing 2nd Rank in M.Sc. Forensic Science (Institute of Forensic Science, Mumbai).
                         </p>
                     </div>
-                    <div class="p-3 d-flex justify-content-center align-items-end   animate__animated animate__bounce wow"
-                        data-wow-duration="2s" data-wow-delay="1s">
-                        <a href="https://drive.google.com/file/d/1abHHBc4nGHgyXozmIfTqy-iw1IylaB60/view?usp=sharing"
-                            target="_blank" rel="noopener noreferrer"
-                            style="outline: none; text-decoration: none;color: white;"><button
-                                class="resume-button">Resume</button>
-                        </a>
-                    </div>
                 </div>
             </div>
         </div>
-
-    </div>
-
-    <!-- <div class="container animate__animated animate__slideInUp wow" data-wow-duration="2s" data-wow-delay="1s">
-        <div class="card detailsCard p-3 glow-box">
-            <div class="card-header text-center ">
-                <h1>About</h1>
-            </div>
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-lg-4 align-self-center text-center">
-                        <div class="card mb-3 detailsCard">
-                            <div class="card-body">
-                                <img class="mx-auto d-block "  src="assets/pics/profile.jpg" alt="" >
-                            </div>
-                        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title" data-text="CONTACT">CONTACT LAB</h2>
+            <div class="contact-wrapper">
+                <!-- Contact form removed as per request -->
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>dimpy.210981@gmail.com</p>
                     </div>
-                    <div class="col-lg-8 align-self-center ">
-
-                        <div class="card mb-3 detailsCard">
-                            <div class="card-body animate__animated animate__zoomIn wow" data-wow-duration="1.5s"
-                                data-wow-delay="1s" style="font-size: 20px;">
-                                <p id="about-type">
-                                    I'm a forensic science student specializing in chemistry and toxicology. With a
-                                    strong
-                                    foundation in chemical properties
-                                    and analytical methods, I'm passionate about applying scientific knowledge to solve
-                                    real-world problems. I have hands-on
-                                    laboratory experience and am particularly interested in drug analysis and trace
-                                    evidence
-                                    analysis. I'm eager to
-                                    contribute to the advancement of forensic science and make a meaningful impact on
-                                    society.
-                                </p>
-                                <div class="d-flex justify-content-center align-items-end">
-                                    <a href="https://drive.google.com/file/d/1abHHBc4nGHgyXozmIfTqy-iw1IylaB60/view?usp=sharing"
-                                        target="_blank" rel="noopener noreferrer"
-                                        style="outline: none; text-decoration: none;color: white;"><button
-                                            class="resume-button">Resume</button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="info-item">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <p><a href="https://www.linkedin.com/in/dimpy-rana" target="_blank">linkedin.com/in/dimpy-rana</a></p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>Amravati / Mumbai, India</p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div> -->
-    <div class="container animate__animated animate__slideInLeft wow" data-wow-duration="2s" data-wow-delay="0.5s">
-
-        <div class="card detailsCard p-3 glow-box">
-            <div class="card-header text-center ">
-                <h1>Master's Research Project</h1>
-            </div>
-            <div class="card-body">
-                <div class="row">
-                    <div class="col-lg-4 align-self-center text-center ">
-                        <div class="card mb-3 detailsCard">
-                            <div class="card-body">
-                                <img class="img-fluid mx-auto d-block " src="assets/pics/bg.png" alt=""
-                                    style=" width: 50%;height: auto;">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-8 align-self-center ">
-
-                        <div class="card mb-3 detailsCard">
-                            <div class="card-header text-center">
-                                <h5>
-                                    Spectrophotometric determination of sunset yellow and tartrazine in non-alcoholic
-                                    beverages
-                                </h5>
-                            </div>
-                            <div class="card-body " style="font-size: 20px;">
-
-                                <p>
-                                    The objective of this dissertation project is to develop a robust and accurate
-                                    spectrophotometric method for the
-                                    determination of sunset yellow and tartrazine in various beverages. The study aims
-                                    to
-                                    establish reliable analytical
-                                    procedures, including sample preparation, wavelength selection, and calibration
-                                    curve
-                                    construction. Additionally, the
-                                    project seeks to evaluate the concentration levels of these synthetic food colorants
-                                    in
-                                    different beverage samples and
-                                    assess their compliance with acceptable regulatory limits. The findings will
-                                    contribute
-                                    to ensuring food safety and
-                                    quality control in the food and beverage industry, providing valuable insights for
-                                    manufacturers, regulatory
-                                    authorities, and consumers.
-
-
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="p-3 container animate__animated animate__fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
-
-        <div class="card detailsCard p-3 glow-box">
-            <div class="card-header text-center ">
-                <h1>Course Specializations</h1>
-            </div>
-            <div class="card-body">
-                <div class="row">
-                    <div
-                        class="col-lg align-self-center animate__animated animate__pulse animate__infinite	infinite animate__slower">
-                        <div class="card mb-3 detailsCard glow-box2">
-                            <div class="card-body" style="font-size: 20px;">
-                                <img class="img-fluid mx-auto d-block " src="assets/pics/fingerprint.png" alt=""
-                                    style="height: 175px;">
-                            </div>
-                            <div class="card-title text-center">
-                                <h5>
-                                    Forensic Fingerprint
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-lg align-self-center animate__animated animate__pulse animate__infinite	infinite animate__slower">
-                        <div class="card mb-3 detailsCard glow-box2">
-                            <div class="card-body" style="font-size: 20px;">
-                                <img class="img-fluid mx-auto d-block " src="assets/pics/medicine.png" alt=""
-                                    style="height: 175px;">
-                            </div>
-                            <div class="card-title text-center">
-                                <h5>
-                                    Forensic Medicines
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-lg align-self-center animate__animated animate__pulse animate__infinite	infinite animate__slower">
-                        <div class="card mb-3 detailsCard glow-box2">
-                            <div class="card-body" style="font-size: 20px;">
-                                <img class="img-fluid mx-auto d-block " src="assets/pics/toxicology.png" alt=""
-                                    style="height:175px;">
-                            </div>
-                            <div class="card-title text-center">
-                                <h5>
-                                    Forensic Toxicology
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-                <div class="row">
-                    <div
-                        class="col-lg align-self-center animate__animated animate__pulse animate__infinite	infinite animate__slower">
-                        <div class="card mb-3 detailsCard glow-box2">
-                            <div class="card-body" style="font-size: 20px;">
-                                <img class="img-fluid mx-auto d-block " src="assets/pics/explosives.png" alt=""
-                                    style="height: 175px;">
-                            </div>
-                            <div class="card-title text-center">
-                                <h5>
-                                    Forensic Explosives
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-lg align-self-center animate__animated animate__pulse animate__infinite	infinite animate__slower">
-                        <div class="card mb-3 detailsCard glow-box2">
-                            <div class="card-body" style="font-size: 20px;">
-                                <img class="img-fluid mx-auto d-block " src="assets/pics/chemistry.jpg" alt=""
-                                    style="height: 175px;">
-                            </div>
-                            <div class="card-title text-center">
-                                <h5>
-                                    Forensic Chemistry
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div
-                        class="col-lg align-self-center animate__animated animate__pulse animate__infinite	infinite animate__slower">
-                        <div class="card mb-3 detailsCard glow-box2">
-                            <div class="card-body" style="font-size: 20px;">
-                                <img class="img-fluid mx-auto d-block " src="assets/pics/ballistic.jpg" alt=""
-                                    style="height: 175px;">
-                            </div>
-                            <div class="card-title text-center">
-                                <h5>
-                                    Forensic Ballistics
-                                </h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </div>
-    <div class="container p-5 d-flex justify-content-center animate__animated animate__rollIn wow"
-        data-wow-duration="2s" data-wow-delay="0.5s">
-        <div class="card align-self-center  detailsCard glow-box">
-            <div class="card-header text-center">
-                <h1>Connect With Me</h1>
-            </div>
-            <div class="card-body d-flex justify-content-center align-items-center" id="connect" style="height: 200px;">
-                <ul>
-                    <li>
-                        <a href="mailto:dimpy.210981@gmail.com">
-                            <i class="fas fa-at"></i></a>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/dimpy-rana/" target="_blank" rel="noopener noreferrer">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://twitter.com/drajput_21" target="_blank" rel="noopener noreferrer">
-                            <i class="fa-brands fa-x-twitter"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </div>
+    </section>
 
-    <footer class="footer">
-        <div class="container text-center">
-            <p style="font-size: 10px;">Made By</p> <a href="https://github.com/shubham-lohan/" target="_blank"
-                style="text-decoration: none; color: inherit; font-family:'Dancing Script', cursive; ;"> Shubham
-                Lohan</a>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Dimpy Rana. Forensic Toxicology.</p>
+            <p class="credits">Designed by <a href="https://shubham-lohan.github.io/" target="_blank">Shubham Lohan</a></p>
         </div>
     </footer>
+<script src="script.js"></script>
 </body>
-
-<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-<script>
-    var typed = new Typed('#welcome-type', {
-        strings: ['Hello! <br> I\'m <span id="intro-type"></span>'],
-        typeSpeed: 50,
-        backSpeed: 25,
-        smartBackspace: true,
-        showCursor: false,
-
-
-
-        onComplete: function () {
-
-            // After typing is complete, start typing the dynamic word
-            var typedWord = new Typed('#intro-type', {
-                // strings: ['Shubham Lohan', 'Engineer', 'ML'],
-                strings: ['<p>Dimpy Rana</p>', 'Forensic Science Student', 'Chemistry and Toxicology Specialist'],
-                typeSpeed: 50,
-                backSpeed: 50,
-                showCursor: false,
-                smartBackspace: true,
-                loop: true,
-
-                onComplete: function () {
-                    // Clear the typed word after a delay
-                    setTimeout(function () {
-                        document.getElementById('intro-type').textContent = '';
-                    }, 1000);
-
-                }
-            });
-        }
-    });
-</script>
-<script src="https://kit.fontawesome.com/0219d0e298.js" crossorigin="anonymous"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
-    integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
-    crossorigin="anonymous"></script>
-<script>
-    new WOW().init();
-</script>
-
 </html>
